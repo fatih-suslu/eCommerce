@@ -1,5 +1,5 @@
-import MobileNavbar from "./MobileNavbar";
-import Navbar from "./Navbar";
+import MobileNavbar from "../components/MobileNavbar";
+import Navbar from "../components/Navbar";
 
 export default function Header() {
   return (

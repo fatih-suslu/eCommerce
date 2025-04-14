@@ -1,5 +1,5 @@
-import Header from "./components/Header";
+import PageContent from "./layout/PageContent";
 
 export default function App() {
-  return <Header />;
+  return <PageContent />;
 }
