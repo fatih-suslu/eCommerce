@@ -1,4 +1,7 @@
 import Card from "./Card";
+import img1 from "../assets/productCover1.png";
+import img2 from "../assets/productCover2.png";
+import img3 from "../assets/productCover3.png";
 
 const cardData = [
   {
@@ -6,8 +9,32 @@ const cardData = [
     description: "English Department",
     price: 16.48,
     discountPrice: 6.48,
-    colors: ["blue", "green", "orange", "black"],
-    imageUrl: "https://via.placeholder.com/150?text=Card+1",
+    colors: ["blue", "green", "orange", "yellow"],
+    imageUrl: img1,
+  },
+  {
+    title: "Graphic Design",
+    description: "English Department",
+    price: 16.48,
+    discountPrice: 6.48,
+    colors: ["blue", "green", "orange", "yellow"],
+    imageUrl: img2,
+  },
+  {
+    title: "Graphic Design",
+    description: "English Department",
+    price: 16.48,
+    discountPrice: 6.48,
+    colors: ["blue", "green", "orange", "yellow"],
+    imageUrl: img3,
+  },
+  {
+    title: "Graphic Design",
+    description: "English Department",
+    price: 16.48,
+    discountPrice: 6.48,
+    colors: ["blue", "green", "orange", "yellow"],
+    imageUrl: img1,
   },
   {
     title: "Graphic Design",
@@ -15,7 +42,7 @@ const cardData = [
     price: 16.48,
     discountPrice: 6.48,
     colors: ["blue", "green", "orange", "black"],
-    imageUrl: "https://via.placeholder.com/150?text=Card+1",
+    imageUrl: img2,
   },
   {
     title: "Graphic Design",
@@ -23,7 +50,7 @@ const cardData = [
     price: 16.48,
     discountPrice: 6.48,
     colors: ["blue", "green", "orange", "black"],
-    imageUrl: "https://via.placeholder.com/150?text=Card+1",
+    imageUrl: img3,
   },
   {
     title: "Graphic Design",
@@ -31,7 +58,7 @@ const cardData = [
     price: 16.48,
     discountPrice: 6.48,
     colors: ["blue", "green", "orange", "black"],
-    imageUrl: "https://via.placeholder.com/150?text=Card+1",
+    imageUrl: img1,
   },
   {
     title: "Graphic Design",
@@ -39,31 +66,7 @@ const cardData = [
     price: 16.48,
     discountPrice: 6.48,
     colors: ["blue", "green", "orange", "black"],
-    imageUrl: "https://via.placeholder.com/150?text=Card+1",
-  },
-  {
-    title: "Graphic Design",
-    description: "English Department",
-    price: 16.48,
-    discountPrice: 6.48,
-    colors: ["blue", "green", "orange", "black"],
-    imageUrl: "https://via.placeholder.com/150?text=Card+1",
-  },
-  {
-    title: "Graphic Design",
-    description: "English Department",
-    price: 16.48,
-    discountPrice: 6.48,
-    colors: ["blue", "green", "orange", "black"],
-    imageUrl: "https://via.placeholder.com/150?text=Card+1",
-  },
-  {
-    title: "Graphic Design",
-    description: "English Department",
-    price: 16.48,
-    discountPrice: 6.48,
-    colors: ["blue", "green", "orange", "black"],
-    imageUrl: "https://via.placeholder.com/150?text=Card+1",
+    imageUrl: img2,
   },
 ];
 

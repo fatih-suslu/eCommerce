@@ -9,7 +9,7 @@ import BlogCard from "../components/BlogCard";
 
 export default function HomePage() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div>
       <Header />
       <HeroSlider />
       <ShopCards />
