@@ -7,11 +7,8 @@ const Card = ({
   imageUrl,
 }) => {
   return (
-    <div className="shadow-md flex flex-col flex-wrap mx-2 my-2 justify-center items-center">
-      <img
-        src={imageUrl || "https://via.placeholder.com/150?text=Default+Image"}
-        alt={title}
-      />
+    <div className="flex flex-col flex-wrap mx-2 my-2 justify-center items-center">
+      <img src={imageUrl} alt={title} className="pt-4" />
       <div className="p-4 text-center">
         <h2 className="text-xl font-bold mb-2">{title}</h2>
         <p className="text-gray-500 mb-4 font-bold ">{description}</p>

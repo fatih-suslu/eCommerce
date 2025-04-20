@@ -1,12 +1,8 @@
-import img1 from "../assets/ShopPageImg1.png";
-import img2 from "../assets/ShopPageImg2.png";
-import img3 from "../assets/ShopPageImg3.png";
-import img4 from "../assets/ShopPageImg4.png";
-import img5 from "../assets/ShopPageImg5.png";
+import shopData from "../data/data.json";
 
-const images = [img1, img2, img3, img4, img5];
+const images = shopData.shopData.map((item) => item.imageURL);
 
-export default function MobileShopCards({ view }) {
+export default function MobileShopCards() {
   return (
     <section className="flex flex-wrap gap-4 justify-center items-center py-6 bg-[#FAFAFA] ">
       {images.map((image, index) => (

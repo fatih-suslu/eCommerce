@@ -1,0 +1,307 @@
+{
+  "cardData": [
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "yellow"],
+      "imageUrl": "/assets/productCover1.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "yellow"],
+      "imageUrl": "/assets/productCover2.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "yellow"],
+      "imageUrl": "/assets/productCover3.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "yellow"],
+      "imageUrl": "/assets/productCover4.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "black"],
+      "imageUrl": "/assets/productCover5.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "black"],
+      "imageUrl": "/assets/productCover6.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "black"],
+      "imageUrl": "/assets/productCover7.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "black"],
+      "imageUrl": "/assets/productCover8.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "black"],
+      "imageUrl": "/assets/productCover9.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "black"],
+      "imageUrl": "/assets/productCover10.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "black"],
+      "imageUrl": "/assets/productCover11.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "black"],
+      "imageUrl": "/assets/productCover12.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "yellow"],
+      "imageUrl": "/assets/productCover1.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "yellow"],
+      "imageUrl": "/assets/productCover2.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "yellow"],
+      "imageUrl": "/assets/productCover3.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "yellow"],
+      "imageUrl": "/assets/productCover4.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "black"],
+      "imageUrl": "/assets/productCover5.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "black"],
+      "imageUrl": "/assets/productCover6.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "black"],
+      "imageUrl": "/assets/productCover7.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "black"],
+      "imageUrl": "/assets/productCover8.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "black"],
+      "imageUrl": "/assets/productCover9.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "black"],
+      "imageUrl": "/assets/productCover10.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "black"],
+      "imageUrl": "/assets/productCover11.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "black"],
+      "imageUrl": "/assets/productCover12.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "yellow"],
+      "imageUrl": "/assets/productCover1.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "yellow"],
+      "imageUrl": "/assets/productCover2.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "yellow"],
+      "imageUrl": "/assets/productCover3.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "yellow"],
+      "imageUrl": "/assets/productCover4.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "black"],
+      "imageUrl": "/assets/productCover5.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "black"],
+      "imageUrl": "/assets/productCover6.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "black"],
+      "imageUrl": "/assets/productCover7.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "black"],
+      "imageUrl": "/assets/productCover8.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "black"],
+      "imageUrl": "/assets/productCover9.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "black"],
+      "imageUrl": "/assets/productCover10.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "black"],
+      "imageUrl": "/assets/productCover11.png"
+    },
+    {
+      "title": "Graphic Design",
+      "description": "English Department",
+      "price": 16.48,
+      "discountPrice": 6.48,
+      "colors": ["blue", "green", "orange", "black"],
+      "imageUrl": "/assets/productCover12.png"
+    }
+  ],
+  "shopData": [
+    { "imageURL": "/assets/ShopPageImg1.png" },
+    { "imageURL": "/assets/ShopPageImg2.png" },
+    { "imageURL": "/assets/ShopPageImg3.png" },
+    { "imageURL": "/assets/ShopPageImg4.png" },
+    { "imageURL": "/assets/ShopPageImg5.png" }
+  ],
+  "clientsData": [
+    { "imageURL": "/assets/clients1.svg" },
+    { "imageURL": "/assets/clients2.svg" },
+    { "imageURL": "/assets/clients3.svg" },
+    { "imageURL": "/assets/clients4.svg" },
+    { "imageURL": "/assets/clients5.svg" },
+    { "imageURL": "/assets/clients6.svg" }
+  ]
+}

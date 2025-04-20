@@ -3,9 +3,9 @@ import Footer from "./Footer";
 import HeroSlider from "../components/HeroSlider";
 import ShopSlider from "../components/ShopSlider";
 import ShopCards from "../components/ShopCards";
-import CardList from "../components/CardList";
 import ProductContainer from "../components/ProductContainer";
 import BlogCard from "../components/BlogCard";
+import ProductCards from "../components/ProductCards";
 
 export default function HomePage() {
   return (
@@ -13,7 +13,7 @@ export default function HomePage() {
       <Header />
       <HeroSlider />
       <ShopCards />
-      <CardList />
+      <ProductCards />
       <ShopSlider />
       <ProductContainer />
       <BlogCard />

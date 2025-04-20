@@ -1,11 +1,15 @@
 import { Facebook, Instagram, Twitter } from "lucide-react";
 import { Link } from "react-router-dom";
 
-export default function Footer() {
+export default function Footer({ bgColor }) {
   return (
     <footer>
       {/*ikonlar*/}
-      <div className="bg-gray-100 flex flex-col px-4 py-8">
+      <div
+        className={`${
+          bgColor ? "bg-white" : "bg-gray-100"
+        } flex flex-col px-4 py-8`}
+      >
         <h1 className="text-2xl font-bold mb-6">Bandage</h1>
         <div className="flex gap-3">
           <Link
