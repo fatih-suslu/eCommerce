@@ -4,7 +4,7 @@ const clients = clientsData.clientsData;
 
 export default function Clients() {
   return (
-    <section className="bg-gray-100 py-20 px-6">
+    <section className="bg-gray-100 py-10 px-6">
       <div className="flex flex-wrap justify-evenly items-center">
         {clients.map((item, index) => (
           <div

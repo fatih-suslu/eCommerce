@@ -8,37 +8,37 @@ export default function Footer({ bgColor }) {
       <div
         className={`${
           bgColor ? "bg-white" : "bg-gray-100"
-        } flex flex-col px-4 py-8`}
+        } flex flex-col px-6 py-8 md:flex-row md:justify-between md:items-center md:px-24 gap-6`}
       >
-        <h1 className="text-2xl font-bold mb-6">Bandage</h1>
-        <div className="flex gap-3">
+        <h1 className="text-2xl font-bold md:text-4xl ">Bandage</h1>
+        <div className="flex gap-3 ">
           <Link
             to="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Instagram className="w-6 h-6 text-blue-500 " />
+            <Instagram className="w-6 h-6 md:w-8 md:h-8 text-blue-500 " />
           </Link>
           <Link
             to="https://facebook.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Facebook className="w-6 h-6 text-blue-500" />
+            <Facebook className="w-6 h-6 md:w-8 md:h-8 text-blue-500" />
           </Link>
           <Link
             to="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Twitter className="w-6 h-6 text-blue-500" />
+            <Twitter className="w-6 h-6 md:w-8 md:h-8 text-blue-500" />
           </Link>
         </div>
       </div>
-      <section className="flex flex-col gap-8 px-4 py-8">
+      <section className="flex flex-col gap-8 px-6 py-8 md:px-24 md:flex-row">
         {/* Company Info */}
-        <div className="flex flex-col gap-4">
-          <h2 className="text-lg font-bold ">Company Info</h2>
+        <div className="flex flex-col gap-4 flex-1">
+          <h2 className="text-lg font-bold">Company Info</h2>
           <ul className="space-y-2">
             <li>
               <Link to="/about" className="text-gray-600 hover:text-blue-500">
@@ -64,8 +64,8 @@ export default function Footer({ bgColor }) {
         </div>
 
         {/* Legal */}
-        <div className="flex flex-col gap-4">
-          <h2 className="text-lg font-bold ">Legal</h2>
+        <div className="flex flex-col gap-4 flex-1">
+          <h2 className="text-lg font-bold">Legal</h2>
           <ul className="space-y-2">
             <li>
               <Link to="/privacy" className="text-gray-600 hover:text-blue-500">
@@ -94,8 +94,8 @@ export default function Footer({ bgColor }) {
         </div>
 
         {/* Features */}
-        <div className="flex flex-col gap-4">
-          <h2 className="text-lg font-bold ">Features</h2>
+        <div className="flex flex-col gap-4 flex-1">
+          <h2 className="text-lg font-bold">Features</h2>
           <ul className="space-y-2">
             <li>
               <Link
@@ -133,8 +133,8 @@ export default function Footer({ bgColor }) {
         </div>
 
         {/* Resources */}
-        <div className="flex flex-col gap-4">
-          <h2 className="text-lg font-bold ">Resources</h2>
+        <div className="flex flex-col gap-4 flex-1">
+          <h2 className="text-lg font-bold">Resources</h2>
           <ul className="space-y-2">
             <li>
               <Link
@@ -170,25 +170,31 @@ export default function Footer({ bgColor }) {
             </li>
           </ul>
         </div>
-      </section>
 
-      {/* Get In Touch */}
-      <div className="flex flex-col px-4 ">
-        <h2 className="text-lg font-bold ">Get In Touch</h2>
-        <form className="space-y-4">
-          <input
-            type="email"
-            placeholder="Your Email"
-            className=" px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
-          />
-          <button
-            type="submit"
-            className=" bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
-          >
-            Subscribe
-          </button>
-          <p className="text-gray-400">Lore imp sum dolor Amit</p>
-        </form>
+        {/* Get In Touch */}
+        <div className="flex flex-col mb-4 flex-1">
+          <h2 className="text-lg font-bold">Get In Touch</h2>
+          <form className="space-y-4">
+            <input
+              type="email"
+              placeholder="Your Email"
+              className="px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
+            />
+            <button
+              type="submit"
+              className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
+            >
+              Subscribe
+            </button>
+            <p className="text-gray-400">Lore imp sum dolor Amit</p>
+          </form>
+        </div>
+      </section>
+      <div className="w-full bg-gray-50 text-center py-12 md:px-24">
+        <p className="text-lg md:text-left text-gray-500 font-bold">
+          Made With Love By <br className="md:hidden " /> Finland All Rights
+          Reserved
+        </p>
       </div>
     </footer>
   );
