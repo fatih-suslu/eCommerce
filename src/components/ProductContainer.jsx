@@ -22,10 +22,13 @@ export default function ProductContainer() {
           </button>
         </div>
       </div>
-      <img
-        src="https://via.placeholder.com/400x400?text=Placeholder"
-        alt="resim"
-      />
+      <div className="flex justify-center items-center">
+        <img
+          src="/assets/heroCover3.png"
+          alt="resim"
+          className="w-full max-w-[400px] md:max-w-[600px] mt-6 ml-4"
+        />
+      </div>
     </div>
   );
 }
