@@ -15,7 +15,7 @@ export default function HomePage() {
       <ShopCards />
       <ProductCards />
       <ShopSlider />
-      <ProductContainer />
+      <ProductContainer hata={"ekranı taştırıyork düzelt"} />
       <BlogCard />
       <Footer />
     </div>

@@ -28,7 +28,7 @@ export default function MobileNavbar() {
           <a href="#" className="font-medium">
             Home
           </a>
-          <a href="#" className="font-bold">
+          <a href="/Product" className="font-bold">
             Product
           </a>
           <a href="#" className="font-bold">

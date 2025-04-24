@@ -13,31 +13,32 @@ export default function Footer({ bgColor }) {
         <h1 className="text-2xl font-bold md:text-4xl ">Bandage</h1>
         <div className="flex gap-3 ">
           <Link
+            to="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Facebook className="w-6 h-6 md:w-8 md:h-8 p-0.5 text-white fill-white bg-blue-500 border border-blue-500 rounded-full " />
+          </Link>
+          <Link
             to="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Instagram className="w-6 h-6 md:w-8 md:h-8 text-blue-500 " />
           </Link>
-          <Link
-            to="https://facebook.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Facebook className="w-6 h-6 md:w-8 md:h-8 text-blue-500" />
-          </Link>
+
           <Link
             to="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Twitter className="w-6 h-6 md:w-8 md:h-8 text-blue-500" />
+            <Twitter className="w-6 h-6 md:w-8 md:h-8 text-blue-500 fill-blue-500" />
           </Link>
         </div>
       </div>
       <section className="flex flex-col gap-8 px-6 py-8 md:px-24 md:flex-row">
         {/* Company Info */}
-        <div className="flex flex-col gap-4 flex-1">
+        <div className="flex flex-col gap-4 flex-1 font-semibold">
           <h2 className="text-lg font-bold">Company Info</h2>
           <ul className="space-y-2">
             <li>
@@ -64,7 +65,7 @@ export default function Footer({ bgColor }) {
         </div>
 
         {/* Legal */}
-        <div className="flex flex-col gap-4 flex-1">
+        <div className="flex flex-col gap-4 flex-1 font-semibold">
           <h2 className="text-lg font-bold">Legal</h2>
           <ul className="space-y-2">
             <li>
@@ -94,7 +95,7 @@ export default function Footer({ bgColor }) {
         </div>
 
         {/* Features */}
-        <div className="flex flex-col gap-4 flex-1">
+        <div className="flex flex-col gap-4 flex-1 font-semibold">
           <h2 className="text-lg font-bold">Features</h2>
           <ul className="space-y-2">
             <li>
@@ -133,7 +134,7 @@ export default function Footer({ bgColor }) {
         </div>
 
         {/* Resources */}
-        <div className="flex flex-col gap-4 flex-1">
+        <div className="flex flex-col gap-4 flex-1 font-semibold">
           <h2 className="text-lg font-bold">Resources</h2>
           <ul className="space-y-2">
             <li>
@@ -172,7 +173,7 @@ export default function Footer({ bgColor }) {
         </div>
 
         {/* Get In Touch */}
-        <div className="flex flex-col mb-4 flex-1">
+        <div className="flex flex-col mb-4 flex-1 ">
           <h2 className="text-lg font-bold">Get In Touch</h2>
           <form className="space-y-4">
             <input

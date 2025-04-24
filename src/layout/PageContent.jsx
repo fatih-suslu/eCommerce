@@ -1,6 +1,7 @@
 import { Switch, Route } from "react-router-dom";
 import HomePage from "./HomePage";
 import ShopPage from "./ShopPage";
+import ProductDetailPage from "./ProductDetailPage";
 
 export default function () {
   return (
@@ -10,6 +11,9 @@ export default function () {
       </Route>
       <Route path="/shop">
         <ShopPage />
+      </Route>
+      <Route path="/product">
+        <ProductDetailPage />
       </Route>
     </Switch>
   );

@@ -2,7 +2,7 @@ import { List, Grid2x2 } from "lucide-react";
 
 const ShopControls = ({ setView }) => {
   return (
-    <div className="flex flex-col items-center justify-between p-4 gap-4 ">
+    <div className="flex flex-col md:flex-row md:px-12 items-center justify-between p-4 gap-4 ">
       {/* Sonuç Sayısı */}
       <span className="text-gray-500 font-bold text-sm ">
         Showing all 12 results
