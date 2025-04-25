@@ -11,8 +11,7 @@ import {
   ChevronDown,
   Youtube,
 } from "lucide-react";
-
-//A LARI NAVLİNK YAP!
+import { NavLink } from "react-router-dom";
 
 const shopData = [
   {
@@ -28,7 +27,7 @@ const shopData = [
 export default function Navbar() {
   return (
     <div className="hidden lg:flex flex-col w-full">
-      {/*  Bilgi Barı */}
+      {/* Bilgi Barı */}
       <div className="bg-gray-900 text-white text-2xl px-12 py-4 flex justify-between items-center w-full">
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-1">
@@ -43,7 +42,7 @@ export default function Navbar() {
         <div className="text-center">
           <span>Follow Us and get a chance to win 80% off</span>
         </div>
-        <div className="flex  items-center gap-4">
+        <div className="flex items-center gap-4">
           <span>Follow Us : </span>
           <Instagram className="w-6 h-6" />
           <Youtube className="w-6 h-6" />
@@ -54,11 +53,13 @@ export default function Navbar() {
 
       {/* Ana Navbar */}
       <div className="flex items-center justify-between px-12 py-6 w-full">
-        {/* Sol taraf: Bandage ve Menü */}
+        {/* Sol Taraf: Bandage ve Menü */}
         <div className="flex items-center gap-48">
           <h1 className="text-2xl font-bold">Bandage</h1>
           <nav className="flex gap-6 text-gray-600 text-2xl font-medium">
-            <a href="#">Home</a>
+            <NavLink to="/" className="hover:text-blue-600">
+              Home
+            </NavLink>
             <div className="relative group">
               <button className="flex items-center gap-1">
                 Shop <ChevronDown className="w-4 h-4" />
@@ -71,7 +72,12 @@ export default function Navbar() {
                     <ul className="space-y-1 text-2xl">
                       {section.items.map((item) => (
                         <li key={item}>
-                          <a href="#">{item}</a>
+                          <NavLink
+                            to={`/shop/${item}`}
+                            className="hover:text-blue-600"
+                          >
+                            {item}
+                          </NavLink>
                         </li>
                       ))}
                     </ul>
@@ -79,22 +85,32 @@ export default function Navbar() {
                 ))}
               </div>
             </div>
-            <a href="#">About</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
-            <a href="#">Pages</a>
+            <NavLink to="/about" className="hover:text-blue-600">
+              About
+            </NavLink>
+            <NavLink to="/blog" className="hover:text-blue-600">
+              Blog
+            </NavLink>
+            <NavLink to="/contact" className="hover:text-blue-600">
+              Contact
+            </NavLink>
+            <NavLink to="/pages" className="hover:text-blue-600">
+              Pages
+            </NavLink>
           </nav>
         </div>
 
-        {/* Sağ taragf: İkonlar */}
+        {/* Sağ Taraf: İkonlar */}
         <div className="flex items-center gap-14 text-gray-700 text-2xl">
           <div className="flex items-center gap-1 text-blue-600 font-semibold">
             <User className="w-6 h-6" />
-            <a href="#">Login / Register</a>
+            <NavLink to="/login" className="hover:text-blue-600">
+              Login / Register
+            </NavLink>
           </div>
-          <Search className="w-6 h-6" />
-          <ShoppingCart className="w-6 h-6" />
-          <Heart className="w-6 h-6" />
+          <Search className="w-6 h-6 cursor-pointer" />
+          <ShoppingCart className="w-6 h-6 cursor-pointer" />
+          <Heart className="w-6 h-6 cursor-pointer" />
         </div>
       </div>
     </div>
