@@ -1,8 +1,10 @@
 import { Switch, Route } from "react-router-dom";
-import HomePage from "./HomePage";
-import ShopPage from "./ShopPage";
-import ProductDetailPage from "./ProductDetailPage";
-import ContactPage from "./ContactPage";
+import HomePage from "../pages/HomePage";
+import ShopPage from "../pages/ShopPage";
+import ProductDetailPage from "../pages/ProductDetailPage";
+import ContactPage from "../pages/ContactPage";
+import TeamPage from "../pages/TeamPage";
+import AboutPage from "../pages/AboutPage";
 
 export default function () {
   return (
@@ -18,6 +20,12 @@ export default function () {
       </Route>
       <Route path="/contact">
         <ContactPage />
+      </Route>
+      <Route path="/team">
+        <TeamPage />
+      </Route>
+      <Route path="/about">
+        <AboutPage />
       </Route>
     </Switch>
   );

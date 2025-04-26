@@ -2,14 +2,14 @@ import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 
 export default function ContactUsContainer() {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between w-full px-6 md:px-12 py-12 gap-8">
+    <section className="flex flex-col md:flex-row items-center justify-between w-full px-6  md:px-12 py-12 gap-8">
       {/* Yazılar */}
       <div className="flex-1 md:text-left text-center">
         <h5 className="font-bold">CONTACT US</h5>
         <h1 className="text-5xl font-bold my-6">Get in touch today!</h1>
         <p className="text-xl text-gray-500 my-8 font-medium">
-          We know how large objects will act, but things on a small scale just
-          do not act that way.
+          We know how large objects will act, <br /> but things on a small scale
+          just do not act that way.
         </p>
         <div className="space-y-3 mb-8">
           <p className="font-bold text-2xl">Phone: +451 215 215</p>

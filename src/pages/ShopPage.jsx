@@ -2,12 +2,12 @@ import { useState } from "react";
 import MobileShopCards from "../components/MobileShopCards";
 import ShopControls from "../components/ShopControls";
 import ShopPageHeader from "../components/ShopPageHeader";
-import Header from "./Header";
+import Header from "../layout/Header";
 import CardList from "../components/CardList";
 import Pagination from "../components/Pagination";
 import cardData from "../data/data.json";
 import Clients from "../components/Clients";
-import Footer from "./Footer";
+import Footer from "../layout/Footer";
 
 export default function ShopPage() {
   const [view, setView] = useState("grid");

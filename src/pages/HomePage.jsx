@@ -1,5 +1,5 @@
-import Header from "./Header";
-import Footer from "./Footer";
+import Header from "../layout/Header";
+import Footer from "../layout/Footer";
 import HeroSlider from "../components/HeroSlider";
 import ShopSlider from "../components/ShopSlider";
 import ShopCards from "../components/ShopCards";
