@@ -1,4 +1,3 @@
-import MobileNavbar from "../components/MobileNavbar";
 import Navbar from "../components/Navbar";
 
 export default function Header() {
@@ -6,7 +5,6 @@ export default function Header() {
     <header>
       <div>
         <Navbar />
-        <MobileNavbar />
       </div>
     </header>
   );
