@@ -28,7 +28,7 @@ export default function Navbar() {
   return (
     <div className="hidden lg:flex flex-col w-full">
       {/* Bilgi Barı */}
-      <div className="bg-gray-900 text-white text-2xl px-12 py-4 flex justify-between items-center w-full">
+      <div className="bg-gray-900 text-white font-semibold px-12  flex justify-between items-center w-full h-12">
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-1">
             <Phone className="w-4 h-4" />
@@ -44,32 +44,66 @@ export default function Navbar() {
         </div>
         <div className="flex items-center gap-4">
           <span>Follow Us : </span>
-          <Instagram className="w-6 h-6" />
-          <Youtube className="w-6 h-6" />
-          <Facebook className="w-6 h-6" />
-          <Twitter className="w-6 h-6" />
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Instagram className="w-5 h-5 transition-transform hover:scale-125" />
+          </a>
+
+          <a
+            href="https://www.youtube.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Youtube className="w-5 h-5 transition-transform hover:scale-125" />
+          </a>
+
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Facebook className="w-5 h-5 transition-transform hover:scale-125" />
+          </a>
+
+          <a
+            href="https://www.twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Twitter className="w-5 h-5 transition-transform hover:scale-125" />
+          </a>
         </div>
       </div>
 
       {/* Ana Navbar */}
-      <div className="flex items-center justify-between px-12 py-6 w-full">
+      <div className="flex items-center justify-between px-12 py-4 w-full">
         {/* Sol Taraf: Bandage ve Menü */}
         <div className="flex items-center gap-48">
           <h1 className="text-2xl font-bold">Bandage</h1>
-          <nav className="flex gap-6 text-gray-600 text-2xl font-medium">
-            <NavLink to="/" className="hover:text-blue-600">
+          <nav className="flex gap-6 text-gray-600 font-semibold text-lg">
+            <NavLink to="/" className="hover:text-blue-600 ">
               Home
             </NavLink>
             <div className="relative group">
-              <button className="flex items-center gap-1">
+              <div className="flex items-center gap-1 cursor-pointer">
                 Shop <ChevronDown className="w-4 h-4" />
-              </button>
+              </div>
+
               {/* Dropdown Menü */}
-              <div className="absolute left-0 top-8 bg-white shadow-lg border rounded-md p-6 hidden group-hover:flex gap-16 z-50">
+              <div
+                className="absolute left-0 top-8 bg-white shadow-lg border rounded-md p-6 
+                  opacity-0 invisible group-hover:visible group-hover:opacity-100 
+                  transition-all duration-300 ease-in-out flex gap-16 z-50"
+              >
                 {shopData.map((section) => (
                   <div key={section.title}>
-                    <h4 className="font-semibold mb-2">{section.title}</h4>
-                    <ul className="space-y-1 text-2xl">
+                    <h4 className="font-semibold text-black mb-2">
+                      {section.title}
+                    </h4>
+                    <ul className="space-y-1 text-lg">
                       {section.items.map((item) => (
                         <li key={item}>
                           <NavLink
@@ -85,6 +119,7 @@ export default function Navbar() {
                 ))}
               </div>
             </div>
+
             <NavLink to="/about" className="hover:text-blue-600">
               About
             </NavLink>
@@ -101,16 +136,16 @@ export default function Navbar() {
         </div>
 
         {/* Sağ Taraf: İkonlar */}
-        <div className="flex items-center gap-14 text-gray-700 text-2xl">
+        <div className="flex items-center gap-10 text-gray-700 text-lg">
           <div className="flex items-center gap-1 text-blue-600 font-semibold">
-            <User className="w-6 h-6" />
+            <User className="w-5 h-5 hover:text-blue-600" />
             <NavLink to="/login" className="hover:text-blue-600">
               Login / Register
             </NavLink>
           </div>
-          <Search className="w-6 h-6 cursor-pointer" />
-          <ShoppingCart className="w-6 h-6 cursor-pointer" />
-          <Heart className="w-6 h-6 cursor-pointer" />
+          <Search className="w-5 h-5 cursor-pointer hover:text-blue-600" />
+          <ShoppingCart className="w-5 h-5 cursor-pointer hover:text-blue-600" />
+          <Heart className="w-5 h-5 cursor-pointer hover:text-blue-600" />
         </div>
       </div>
     </div>
