@@ -1,5 +1,5 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 
 export default function HeroSlider() {
@@ -19,24 +19,29 @@ export default function HeroSlider() {
     );
   };
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      handleNext();
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <section className="relative w-full h-[500px] md:h-screen flex items-center justify-center md:justify-start text-white overflow-hidden">
       <div className="z-10 text-center md:text-left mx-6 md:ml-60 max-w-md">
-        <h5 className="text-sm  tracking-wide mb-8 font-bold">SUMMER 2020</h5>
-
+        <h5 className="text-sm tracking-wide mb-8 font-bold">SUMMER 2020</h5>
         <h2 className="text-4xl md:text-5xl font-bold mb-4">
           NEW <span className="text-white">COLLECTION</span>
         </h2>
-
         <p className="text-base md:text-xl mb-6 leading-snug">
           We know how large objects will act,
           <br />
           but things on a small scale.
         </p>
-
         <button
           onClick={() => history.push("/shop")}
-          className="bg-green-500 text-white font-bold px-8 py-4 text-lg rounded hover:bg-green-600 transition"
+          className="bg-green-500 text-white font-bold px-10 py-4 text-lg rounded hover:bg-green-600 transition"
         >
           SHOP NOW
         </button>

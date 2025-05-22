@@ -32,7 +32,7 @@ export default function HeroSlider() {
         </h4>
         <div className="flex gap-8  ">
           <h5 className="text-4xl tracking-wide mb-8 font-bold">$16.48</h5>
-          <button className="bg-green-500 text-white font-bold px-8 py-4 text-lg rounded hover:bg-green-600 transition">
+          <button className="bg-green-500 text-white font-bold px-10 py-4 text-lg rounded hover:bg-green-600 transition text-nowrap">
             ADD TO CART
           </button>
         </div>

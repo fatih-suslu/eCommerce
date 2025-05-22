@@ -1,6 +1,4 @@
-import React from "react";
-
-const ShopCard = () => {
+export default function CategoryGrid() {
   return (
     <div className="bg-gray-50">
       <section className="text-center pt-10 bg-gray-50">
@@ -10,12 +8,12 @@ const ShopCard = () => {
         </p>
       </section>
 
-      <div className="flex items-center justify-center  p-8 bg-gray-50">
+      <div className="flex items-center justify-center p-8 bg-gray-50">
         <div className="flex flex-col md:flex-row gap-4 w-full max-w-7xl">
           {/* MEN Card - Sol */}
-          <div className="relative w-full md:w-2/4 h-80 md:h-96 lg:h-[32rem]  group overflow-hidden">
+          <div className="relative w-full md:w-2/4 h-80 md:h-96 lg:h-[32rem] group overflow-hidden">
             <img
-              src="\assets\bestSeller1.png"
+              src="/assets/bestSeller1.png"
               alt="Men's Fashion"
               className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
             />
@@ -26,12 +24,12 @@ const ShopCard = () => {
             </div>
           </div>
 
-          {/* WOMEN ve ka */}
+          {/* WOMEN ve KIDS/ACCESSORIES */}
           <div className="w-full md:w-2/4 flex flex-col md:flex-row gap-4">
             {/* WOMEN Kartı */}
-            <div className="relative w-full md:w-1/2 h-80 md:h-96 lg:h-[32rem]  group overflow-hidden">
+            <div className="relative w-full md:w-1/2 h-80 md:h-96 lg:h-[32rem] group overflow-hidden">
               <img
-                src="\assets\bestSeller2.png"
+                src="/assets/bestSeller2.png"
                 alt="Women's Fashion"
                 className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
               />
@@ -45,9 +43,9 @@ const ShopCard = () => {
             {/* KIDS ve ACCESSORIES Kartlar */}
             <div className="w-full md:w-1/2 flex flex-col gap-4">
               {/* KIDS Kartı */}
-              <div className="relative h-40 md:h-48 lg:h-64  group overflow-hidden">
+              <div className="relative h-40 md:h-48 lg:h-64 group overflow-hidden">
                 <img
-                  src="\assets\bestSeller3.png"
+                  src="/assets/bestSeller3.png"
                   alt="Kids' Fashion"
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
@@ -59,9 +57,9 @@ const ShopCard = () => {
               </div>
 
               {/* ACCESSORIES Kartı */}
-              <div className="relative h-40 md:h-44 lg:h-60  group overflow-hidden">
+              <div className="relative h-40 md:h-44 lg:h-60 group overflow-hidden">
                 <img
-                  src="\assets\bestSeller4.png"
+                  src="/assets/bestSeller4.png"
                   alt="Accessories"
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
@@ -77,6 +75,4 @@ const ShopCard = () => {
       </div>
     </div>
   );
-};
-
-export default ShopCard;
+}
