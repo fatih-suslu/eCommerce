@@ -28,7 +28,10 @@ export default function Navbar() {
       {/* Mobil Navbar  */}
       <div className="lg:hidden">
         <div className="flex justify-between items-center px-4 py-4">
-          <h1 className="text-xl font-bold text-gray-900">Bandage</h1>
+          <NavLink to="/" className="text-xl font-bold text-gray-900">
+            Bandage
+          </NavLink>
+
           <div className="flex items-center gap-4 text-gray-800">
             <User className="w-5 h-5" />
             <Search className="w-5 h-5" />
@@ -86,7 +89,10 @@ export default function Navbar() {
         {/* Ana Navbar */}
         <div className="flex items-center justify-between px-12 py-4 w-full">
           <div className="flex items-center gap-48">
-            <h1 className="text-2xl font-bold">Bandage</h1>
+            <NavLink to="/" className="text-2xl font-bold">
+              Bandage
+            </NavLink>
+
             <nav className="flex gap-6 text-gray-600 font-semibold text-lg">
               <NavLink to="/" className="hover:text-blue-600">
                 Home
