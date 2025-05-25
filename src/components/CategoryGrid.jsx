@@ -13,7 +13,7 @@ export default function CategoryGrid() {
       {/*Grid*/}
       <div className="grid grid-cols-1 md:grid-cols-[2fr,1fr,1fr] gap-4 bg-gray-50 w-full max-w-7xl mx-auto p-6 md:p-0">
         {/* MEN */}
-        <div className="relative w-full h-[300px] md:h-[500px] overflow-hidden group">
+        <div className="relative w-full max-h-[500px] overflow-hidden group">
           <img
             src="/assets/bestSeller1.png"
             alt="Men's Fashion"
@@ -29,7 +29,7 @@ export default function CategoryGrid() {
         </div>
 
         {/* WOMEN */}
-        <div className="relative w-full h-[300px] md:h-[500px] overflow-hidden group">
+        <div className="relative w-full max-h-[500px] overflow-hidden group">
           <img
             src="/assets/bestSeller2.png"
             alt="Women's Fashion"
@@ -45,7 +45,7 @@ export default function CategoryGrid() {
         </div>
 
         {/* KIDS & ACCESSORIES */}
-        <div className="grid grid-rows-2 gap-4 h-[500px]">
+        <div className="grid grid-rows-2 gap-4 max-h-[500px]">
           {/* KIDS */}
           <div className="relative w-full h-[242px] overflow-hidden group">
             <img

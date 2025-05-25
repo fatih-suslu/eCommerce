@@ -63,7 +63,7 @@ export default function Navbar() {
             </div>
             <div className="flex items-center gap-1">
               <Mail className="w-4 h-4" />
-              <span>michelle.rivera@example.com</span>
+              <span>fatihsuslu98@gmail.com</span>
             </div>
           </div>
           <div className="text-center">

@@ -8,7 +8,7 @@ const CardList = ({ view }) => {
     <div
       className={`p-6 grid ${
         view === "grid"
-          ? "grid-cols-2 md:grid-cols-4 gap-6"
+          ? "grid-cols-1 md:grid-cols-4 gap-6"
           : "flex flex-col gap-4"
       }`}
     >

@@ -7,7 +7,7 @@ const Card = ({
   imageUrl,
 }) => {
   return (
-    <div className="flex flex-col flex-wrap mx-2 my-2 justify-center items-center">
+    <div className="flex flex-col flex-wrap mx-2 my-2 justify-center items-center transform transition-transform duration-300 hover:scale-105 shadow-md">
       <img src={imageUrl} alt={title} className="pt-4" />
       <div className="p-4 text-center">
         <h2 className="text-xl font-bold mb-2">{title}</h2>

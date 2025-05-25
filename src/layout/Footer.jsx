@@ -11,20 +11,21 @@ export default function Footer({ bgColor }) {
         } flex flex-col px-6 py-8 md:flex-row md:justify-between md:items-center md:px-24 gap-6`}
       >
         <h1 className="text-2xl font-bold md:text-4xl ">Bandage</h1>
-        <div className="flex gap-3 ">
+        <div className="flex gap-3">
           <Link
             to="https://facebook.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Facebook className="w-6 h-6 md:w-8 md:h-8 p-0.5 text-white fill-white bg-blue-500 border border-blue-500 rounded-full " />
+            <Facebook className="w-6 h-6 md:w-8 md:h-8 p-0.5 text-white fill-white bg-blue-500 border border-blue-500 rounded-full hover:bg-blue-600 hover:border-blue-600 hover:scale-110 transition-transform duration-300" />
           </Link>
+
           <Link
             to="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Instagram className="w-6 h-6 md:w-8 md:h-8 text-blue-500 " />
+            <Instagram className="w-6 h-6 md:w-8 md:h-8 text-blue-500 hover:text-pink-500 hover:scale-110 transition-transform duration-300" />
           </Link>
 
           <Link
@@ -32,7 +33,7 @@ export default function Footer({ bgColor }) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Twitter className="w-6 h-6 md:w-8 md:h-8 text-blue-500 fill-blue-500" />
+            <Twitter className="w-6 h-6 md:w-8 md:h-8 text-blue-500 fill-blue-500 hover:text-blue-600 hover:fill-blue-600 hover:scale-110 transition-transform duration-300" />
           </Link>
         </div>
       </div>
@@ -193,7 +194,7 @@ export default function Footer({ bgColor }) {
       </section>
       <div className="w-full bg-gray-50 text-center py-12 md:px-24">
         <p className="text-lg md:text-left text-gray-500 font-bold">
-          Made With Love By <br className="md:hidden " /> Finland All Rights
+          Made With Love By <br className="md:hidden " /> Fatih All Rights
           Reserved
         </p>
       </div>

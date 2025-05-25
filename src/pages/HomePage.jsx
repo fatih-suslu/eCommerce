@@ -4,7 +4,7 @@ import HeroSlider from "../components/HeroSlider";
 import ShopSlider from "../components/ShopSlider";
 import CategoryGrid from "../components/CategoryGrid";
 import ProductContainer from "../components/ProductContainer";
-import BlogCard from "../components/BlogCard";
+import BlogSection from "../components/BlogSection";
 import ProductCards from "../components/ProductCards";
 
 export default function HomePage() {
@@ -15,8 +15,8 @@ export default function HomePage() {
       <CategoryGrid />
       <ProductCards />
       <ShopSlider />
-      <ProductContainer hata={"ekranı taştırıyork düzelt"} />
-      <BlogCard />
+      <ProductContainer />
+      <BlogSection />
       <Footer />
     </div>
   );
